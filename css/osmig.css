@@ -1,0 +1,28 @@
+form.osmig {}
+form.osmig p label {
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 1em;
+}
+form.osmig p input[type="text"], 
+form.osmig p input[type="email"], 
+form.osmig p select, 
+form.osmig p textarea {
+	width: 600px;
+	margin: 0 0 15px;
+	padding: 5px;
+}
+form.osmig p div.checkbox {
+	display: block;
+}
+form.osmig p input[type="checkbox"] {
+	margin: 0px 10px 10px;
+}
+form.osmig p small.help {}
+form.osmig button[type="submit"] {
+	padding: 5px 10px;
+	cursor: pointer;
+}

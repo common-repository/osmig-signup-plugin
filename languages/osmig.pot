@@ -1,0 +1,212 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Osmig Signup Plugin\n"
+"POT-Creation-Date: 2018-10-21 00:38+0200\n"
+"PO-Revision-Date: 2018-10-21 00:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: osmig-signup-plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/shortcodes.inc.php:56
+msgid ""
+"Sorry, something went wrong and we weren't able to process your signup. "
+"Please try again."
+msgstr ""
+
+#: includes/shortcodes.inc.php:86
+msgid "Thank you for signing up."
+msgstr ""
+
+#: includes/shortcodes.inc.php:127
+msgid "Sign up"
+msgstr ""
+
+#: osmig-signup-plugin.php:96 osmig-signup-plugin.php:178
+#: osmig-signup-plugin.php:318
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: osmig-signup-plugin.php:103
+msgid ""
+"This is a list of all the signups you've received so far. The table only "
+"shows the first 5 fields in your form."
+msgstr ""
+
+#: osmig-signup-plugin.php:110
+msgid "The signup was deleted."
+msgstr ""
+
+#: osmig-signup-plugin.php:112 osmig-signup-plugin.php:115
+msgid "An error occurred and the signup was not deleted. Please try again."
+msgstr ""
+
+#: osmig-signup-plugin.php:126
+msgid ""
+"Osmig hasn't been configured yet. You need to do that before you can use the "
+"plugin."
+msgstr ""
+
+#: osmig-signup-plugin.php:187
+msgid "An error occurred and the field was not created. Please try again."
+msgstr ""
+
+#: osmig-signup-plugin.php:207
+msgid "Field has been added."
+msgstr ""
+
+#: osmig-signup-plugin.php:209
+msgid "Field was not added. Please try again."
+msgstr ""
+
+#: osmig-signup-plugin.php:222
+msgid ""
+"Your field was successfully removed, along with any data associated with it."
+msgstr ""
+
+#: osmig-signup-plugin.php:224
+msgid ""
+"Your field was successfully removed. However we were unable to remove data "
+"associated with the field."
+msgstr ""
+
+#: osmig-signup-plugin.php:227 osmig-signup-plugin.php:230
+msgid "An error occurred and the field was not deleted. Please try again."
+msgstr ""
+
+#: osmig-signup-plugin.php:239 osmig-signup-plugin.php:248
+#: osmig-signup-plugin.php:284
+msgid "Name"
+msgstr ""
+
+#: osmig-signup-plugin.php:240 osmig-signup-plugin.php:249
+#: osmig-signup-plugin.php:288
+msgid "Type"
+msgstr ""
+
+#: osmig-signup-plugin.php:241 osmig-signup-plugin.php:250
+#: osmig-signup-plugin.php:292
+msgid "Default"
+msgstr ""
+
+#: osmig-signup-plugin.php:242 osmig-signup-plugin.php:251
+#: osmig-signup-plugin.php:297
+msgid "Help text"
+msgstr ""
+
+#: osmig-signup-plugin.php:243 osmig-signup-plugin.php:252
+msgid "Order"
+msgstr ""
+
+#: osmig-signup-plugin.php:261
+msgid "No fields have been added yet."
+msgstr ""
+
+#: osmig-signup-plugin.php:266
+msgid "Delete"
+msgstr ""
+
+#: osmig-signup-plugin.php:277
+msgid ""
+"Deleting a form field will also destroy any data saved to that form field. "
+"It is <strong>NOT</strong> possible to undo this action."
+msgstr ""
+
+#: osmig-signup-plugin.php:281 osmig-signup-plugin.php:306
+msgid "Add Field"
+msgstr ""
+
+#: osmig-signup-plugin.php:289
+msgid "Text field"
+msgstr ""
+
+#: osmig-signup-plugin.php:289
+msgid "E-mail field"
+msgstr ""
+
+#: osmig-signup-plugin.php:289
+msgid "Select dropdown"
+msgstr ""
+
+#: osmig-signup-plugin.php:289
+msgid "Textarea"
+msgstr ""
+
+#: osmig-signup-plugin.php:289
+msgid "Checkboxes"
+msgstr ""
+
+#: osmig-signup-plugin.php:294
+msgid ""
+"This is the values that will appear as default in the form field you\\'re "
+"creating. For select fields and multiple checkboxes you must separate the "
+"different options with commas."
+msgstr ""
+
+#: osmig-signup-plugin.php:299
+msgid "Write any helpful tips on how to fill out this field here."
+msgstr ""
+
+#: osmig-signup-plugin.php:302
+msgid "Ordering"
+msgstr ""
+
+#: osmig-signup-plugin.php:304
+msgid ""
+"This field is optional. In a number from 1 to 99 place this field in the "
+"order you want it in the form. 1 is first, 99 is last. If you do not give "
+"your fields an order they will be output in the order you create them."
+msgstr ""
+
+#: osmig-signup-plugin.php:322
+msgid "Osmig Help"
+msgstr ""
+
+#: osmig-signup-plugin.php:323
+msgid ""
+"Osmig has two distinct shortcodes you can use to include the plugin in the "
+"frontend of your site, [osmig-form] and [osmig-signups]."
+msgstr ""
+
+#: osmig-signup-plugin.php:325
+msgid ""
+"This shortcode outputs the form you build in the Configuration page.</"
+"p><p><strong>Example:</strong> [osmig-form]"
+msgstr ""
+
+#: osmig-signup-plugin.php:328
+msgid ""
+"This shortcode outputs the list of signups received. It requires one "
+"variable, namely the slug of the field you'd like to list, ie. 'name'.</"
+"p><p><strong>Example:</strong> [osmig-signups slug=\"name\"]"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Osmig Signup Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://campground.dk/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A supersimple signup plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Thomas Mertz"
+msgstr ""
